@@ -98,8 +98,8 @@ This project utilizes the following open-source tools and libraries:
 - **[Next.js](https://nextjs.org/)**: A React framework that enables server-side rendering and static site generation.
 - **[TypeScript](https://www.typescriptlang.org/)**: Provides type safety and enhances code maintainability.
 - **[Appwrite](https://appwrite.io/)**: An open-source backend platform used for user authentication and database management.
-- **[Plaid’s open-source SDKs](https://github.com/plaid)**: (Plaid is a service that connects applications to users’ bank accounts. It enables developers to access users' bank account data, including balances, transactions, and account details.)
-- **[Dwolla](https://github.com/Dwolla)**: (Dwolla is a platform that facilitates ACH (Automated Clearing House) transfers, enabling secure and efficient bank-to-bank payments.)
+- **[Plaid’s open-source SDKs](https://github.com/plaid)**: Plaid is a service that connects applications to users’ bank accounts. It enables developers to access users' bank account data, including balances, transactions, and account details.
+- **[Dwolla](https://github.com/Dwolla)**: Dwolla is a platform that facilitates ACH (Automated Clearing House) transfers, enabling secure and efficient bank-to-bank payments.
 - **[React Hook Form](https://react-hook-form.com/)**: Manages form state with easy validation and performance.
 - **[Zod](https://zod.dev/)**: Validates schema with TypeScript support for improved data integrity.
 - **[TailwindCSS](https://tailwindcss.com/)**: Provides utility-first styling for modern, responsive design.
@@ -307,7 +307,9 @@ By leveraging Appwrite, Dwolla, and Plaid integrations, the application offers u
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE)
+This project is licensed under the [MIT License](LICENSE) - For more details, please visit: [Open Source Initiative License](https://opensource.org/licenses/MIT)
+
+---
 
 ---
 
