@@ -7,7 +7,9 @@ Fin Flow is a financial SaaS platform developed with Next.js, offering users sea
 ## Table of Contents
 
 1. [Fin Flow - A Fintech Bank Application](#fin-flow---a-fintech-bank-application)
+
 2. [Project Description](#project-description)
+
    - [The Problem We Are Solving](#the-problem-we-are-solving)
    - [What Our Project Is](#what-our-project-is)
    - [How It Works](#how-it-works)
@@ -19,17 +21,27 @@ Fin Flow is a financial SaaS platform developed with Next.js, offering users sea
      - [Process](#process)
      - [Learnings](#learnings)
      - [Improvement](#improvement)
+
 3. [Hackathon Participation](#hackathon-participation)
+
    - [Event Details](#event-details)
    - [Hackathon Rules](#hackathon-rules)
+
 4. [Introduction](#introduction)
+
 5. [Links](#links)
+
 6. [Team Members](#team-members)
+
 7. [Tech Stack](#tech-stack)
+
 8. [Features](#features)
+
 9. [Quick Start](#quick-start)
+
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
+
 10. [User Account Creation with Appwrite](#user-account-creation-with-appwrite)
 
 - [Overview](#overview)
@@ -51,119 +63,19 @@ Fin Flow is a financial SaaS platform developed with Next.js, offering users sea
 - [Key Features](#key-features)
 
 14. [Screenshots](#screenshots)
+
 15. [Contributing](#contributing)
 
 - [Guidelines for Contributing](#guidelines-for-contributing)
 - [Reviewing and Merging Pull Requests](#reviewing-and-merging-pull-requests)
 
 16. [Conclusion](#conclusion)
+
 17. [License](#license)
+
 18. [Safety Notice](#safety-notice)
+
 19. [Additional Information](#additional-information)
-
-20. [Fin Flow - A Fintech Bank Application](#fin-flow---a-fintech-bank-application)
-21. [Project Description](#project-description)
-    - [The Problem We Are Solving](#the-problem-we-are-solving)
-    - [What Our Project Is](#what-our-project-is)
-    - [How It Works](#how-it-works)
-    - [Project Timeline](#project-timeline)
-      - [Initial Stage](#initial-stage)
-      - [Current Stage](#current-stage)
-      - [Future Stage](#future-stage)
-    - [Progress and Experience](#progress-and-experience)
-      - [Process](#process)
-      - [Learnings](#learnings)
-      - [Improvement](#improvement)
-22. [Hackathon Participation](#hackathon-participation)
-    - [Event Details](#event-details)
-    - [Hackathon Rules](#hackathon-rules)
-23. [Introduction](#introduction)
-24. [Links](#links)
-25. [Team Members](#team-members)
-26. [Tech Stack](#tech-stack)
-27. [Features](#features)
-28. [Quick Start](#quick-start)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-29. [User Account Creation with Appwrite](#user-account-creation-with-appwrite)
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-
-11. [Dwolla Integration for Payment Processing](#dwolla-integration-for-payment-processing)
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-
-12. [Plaid Link Integration for Bank Account Connection](#plaid-link-integration-for-bank-account-connection)
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-
-13. [Fund Transfer Process](#fund-transfer-process)
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-
-14. [Screenshots](#screenshots)
-15. [Contributing](#contributing)
-
-- [Guidelines for Contributing](#guidelines-for-contributing)
-- [Reviewing and Merging Pull Requests](#reviewing-and-merging-pull-requests)
-
-16. [Conclusion](#conclusion)
-17. [License](#license)
-18. [Safety Notice](#safety-notice)
-19. [Additional Information](#additional-information)
-
-20. [Fin Flow - A Fintech Bank Application](#fin-flow---a-fintech-bank-application)
-21. [Project Description](#project-description)
-
-- [The Problem We Are Solving](#the-problem-we-are-solving)
-- [What Our Project Is](#what-our-project-is)
-- [How It Works](#how-it-works)
-- [Project Timeline](#project-timeline)
-  - [Initial Stage](#initial-stage)
-  - [Current Stage](#current-stage)
-  - [Future Stage](#future-stage)
-- [Progress and Experience](#progress-and-experience)
-  - [Process 💭](#process-)
-  - [Learnings 📚](#learnings-)
-  - [Improvement ✨](#improvement-)
-
-3. [Hackathon Participation](#hackathon-participation)
-
-- [Event Details](#event-details)
-- [Hackathon Rules](#hackathon-rules)
-- [Introduction](#introduction)
-- [Links](#links)
-- [Team Members](#team-members)
-- [Tech Stack](#tech-stack)
-- [Open Source Acknowledgements](#open-source-acknowledgements)
-- [Features](#features)
-- [Quick Start](#quick-start)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [User Account Creation with Appwrite](#user-account-creation-with-appwrite)
-  - [Overview](#overview)
-  - [Key Features](#key-features)
-- [Dwolla Integration for Payment Processing](#dwolla-integration-for-payment-processing)
-  - [Overview](#overview-1)
-  - [Key Features](#key-features-1)
-- [Plaid Link Integration for Bank Account Connection](#plaid-link-integration-for-bank-account-connection)
-  - [Overview](#overview-2)
-  - [Key Features](#key-features-2)
-- [Fund Transfer Process](#fund-transfer-process)
-  - [Overview](#overview-3)
-  - [Key Features](#key-features-3)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-  - [Guidelines for Contributing](#guidelines-for-contributing)
-  - [Reviewing and Merging Pull Requests](#reviewing-and-merging-pull-requests)
-- [Conclusion](#conclusion)
-- [License](#license)
-- [Safety Notice 🚨](#safety-notice-)
-  - [Additional Information](#additional-information)
 
 ## Project Description
 
