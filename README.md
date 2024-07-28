@@ -6,14 +6,193 @@ Fin Flow is a financial SaaS platform developed with Next.js, offering users sea
 
 ## Table of Contents
 
+1. [Fin Flow - A Fintech Bank Application](#fin-flow---a-fintech-bank-application)
+2. [Project Description](#project-description)
+   - [The Problem We Are Solving](#the-problem-we-are-solving)
+   - [What Our Project Is](#what-our-project-is)
+   - [How It Works](#how-it-works)
+   - [Project Timeline](#project-timeline)
+     - [Initial Stage](#initial-stage)
+     - [Current Stage](#current-stage)
+     - [Future Stage](#future-stage)
+   - [Progress and Experience](#progress-and-experience)
+     - [Process](#process)
+     - [Learnings](#learnings)
+     - [Improvement](#improvement)
+3. [Hackathon Participation](#hackathon-participation)
+   - [Event Details](#event-details)
+   - [Hackathon Rules](#hackathon-rules)
+4. [Introduction](#introduction)
+5. [Links](#links)
+6. [Team Members](#team-members)
+7. [Tech Stack](#tech-stack)
+8. [Features](#features)
+9. [Quick Start](#quick-start)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+10. [User Account Creation with Appwrite](#user-account-creation-with-appwrite)
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+
+11. [Dwolla Integration for Payment Processing](#dwolla-integration-for-payment-processing)
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+
+12. [Plaid Link Integration for Bank Account Connection](#plaid-link-integration-for-bank-account-connection)
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+
+13. [Fund Transfer Process](#fund-transfer-process)
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+
+14. [Screenshots](#screenshots)
+15. [Contributing](#contributing)
+
+- [Guidelines for Contributing](#guidelines-for-contributing)
+- [Reviewing and Merging Pull Requests](#reviewing-and-merging-pull-requests)
+
+16. [Conclusion](#conclusion)
+17. [License](#license)
+18. [Safety Notice](#safety-notice)
+19. [Additional Information](#additional-information)
+
+20. [Fin Flow - A Fintech Bank Application](#fin-flow---a-fintech-bank-application)
+21. [Project Description](#project-description)
+
+- [The Problem We Are Solving](#the-problem-we-are-solving)
+- [What Our Project Is](#what-our-project-is)
+- [How It Works](#how-it-works)
+- [Project Timeline](#project-timeline)
+  - [Initial Stage](#initial-stage)
+  - [Current Stage](#current-stage)
+  - [Future Stage](#future-stage)
+- [Progress and Experience](#progress-and-experience)
+  - [Process 💭](#process-)
+  - [Learnings 📚](#learnings-)
+  - [Improvement ✨](#improvement-)
+
+3. [Hackathon Participation](#hackathon-participation)
+
+- [Event Details](#event-details)
+- [Hackathon Rules](#hackathon-rules)
 - [Introduction](#introduction)
 - [Links](#links)
 - [Team Members](#team-members)
 - [Tech Stack](#tech-stack)
+- [Open Source Acknowledgements](#open-source-acknowledgements)
 - [Features](#features)
 - [Quick Start](#quick-start)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [User Account Creation with Appwrite](#user-account-creation-with-appwrite)
+  - [Overview](#overview)
+  - [Key Features](#key-features)
+- [Dwolla Integration for Payment Processing](#dwolla-integration-for-payment-processing)
+  - [Overview](#overview-1)
+  - [Key Features](#key-features-1)
+- [Plaid Link Integration for Bank Account Connection](#plaid-link-integration-for-bank-account-connection)
+  - [Overview](#overview-2)
+  - [Key Features](#key-features-2)
+- [Fund Transfer Process](#fund-transfer-process)
+  - [Overview](#overview-3)
+  - [Key Features](#key-features-3)
 - [Screenshots](#screenshots)
-- [Conlusion](#conclusion)
+- [Contributing](#contributing)
+  - [Guidelines for Contributing](#guidelines-for-contributing)
+  - [Reviewing and Merging Pull Requests](#reviewing-and-merging-pull-requests)
+- [Conclusion](#conclusion)
+- [License](#license)
+- [Safety Notice 🚨](#safety-notice-)
+  - [Additional Information](#additional-information)
+
+## Project Description
+
+### The Problem We Are Solving
+
+Managing finances across multiple bank accounts can be challenging, especially with different interfaces, data formats, and security concerns. Users need a unified platform to track their transactions, manage funds, and gain insights into their financial health efficiently and securely.
+
+### What Our Project Is
+
+**Fin Flow** is a comprehensive financial SaaS platform developed using Next.js, TypeScript, Appwrite, Plaid, and Dwolla. It allows users to connect multiple bank accounts, monitor transactions in real-time, transfer funds securely, and manage their finances through an intuitive and user-friendly interface.
+
+### How It Works
+
+Fin Flow integrates with multiple financial services to offer a seamless experience:
+
+- **User Authentication**: Secure sign-in and account management with Appwrite.
+- **Bank Integration**: Connects to multiple banks using Plaid to fetch real-time transaction data.
+- **Fund Transfers**: Allows users to transfer funds securely using Dwolla.
+- **Data Visualization**: Provides insightful visualizations of financial data using Chart.js.
+
+### Project Timeline
+
+#### Initial Stage
+
+- **Ideation and Planning**: Identified the problem of fragmented financial management and conceptualized Fin Flow.
+- **Technology Stack Selection**: Chose Next.js, TypeScript, Appwrite, Plaid, and Dwolla as core technologies.
+- **Initial Development**: Started with setting up the project structure and basic authentication.
+
+#### Current Stage
+
+- **Core Features Implemented**: User authentication, bank account integration, real-time transaction monitoring, and fund transfer functionalities are in place.
+- **User Interface Design**: Developed a responsive and user-friendly UI using TailwindCSS and ShadCN.
+- **Testing and Debugging**: Conducted thorough testing to identify and fix bugs.
+
+#### Future Stage
+
+- **Public Release Preparation**: Ensuring compliance, data security, and feature integrity before opening access to the public.
+- **Feature Enhancements**: Plan to add more advanced features like budgeting tools, financial goal tracking, and AI-driven insights.
+
+### Progress and Experience
+
+#### Process 💭
+
+We began with a clear vision of simplifying financial management. The journey was challenging but rewarding. Initially, setting up secure authentication and seamless bank integration posed difficulties, but with consistent effort and teamwork, we overcame these hurdles. Our experience at the FOSS Hack 2024 provided valuable insights and motivation to enhance our project further.
+
+#### Learnings 📚
+
+Through this project, we learned:
+
+- The importance of secure data handling and user authentication.
+- Effective ways to integrate multiple third-party APIs.
+- Building a responsive and intuitive user interface.
+
+#### Improvement ✨
+
+While we've made significant progress, there's always room for improvement:
+
+- **Performance Optimization**: Enhancing the speed and efficiency of data processing.
+- **User Feedback Integration**: Incorporating feedback from users to refine features and improve usability.
+- **Scalability**: Ensuring the platform can handle a growing number of users and transactions smoothly.
+
+## Hackathon Participation
+
+This project has been built for the FOSS Hack 2024 organized by [fossunited.org](https://fossunited.org/hack/fosshack24). My team and I participated in the offline venue at SSN College of Engineering, Chennai.
+
+### Event Details:
+
+- **Hybrid**: Register and participate online or in-person.
+- **Dates**:
+  - **Saturday, 27 July 2024**
+  - **Sunday, 28 July 2024**
+- **Time**:
+  - **Starts at 8:00 AM**
+  - **Ends at 8:00 PM**
+- **Description**: India's Largest FOSS Hackathon
+
+### Hackathon Rules
+
+1. Evaluation will be done on the basis of code commits during the course of the event.
+2. You cannot use external APIs as the core feature.
+3. Your project must have a valid FOSS license.
+4. The cash prize will be split among the winners at the discretion of the jury.
+
+Check out the [rules page](https://fossunited.org/hack/fosshack24) for more details.
 
 ## Introduction
 
@@ -311,8 +490,6 @@ This project is licensed under the [MIT License](LICENSE) - For more details, pl
 
 ---
 
----
-
 ## This project is not enabled for public use for safety reasons.
 
 ### Safety Notice 🚨
@@ -328,6 +505,10 @@ This project is licensed under the [MIT License](LICENSE) - For more details, pl
 - **Quality Control**: We aim to deliver a high-quality and reliable application. Limiting access allows us to focus on improving the project and addressing any issues before making it available to the public.
 
 We appreciate your understanding and patience. If you have any questions or need further information, please feel free to reach out to us by opening an issue in the repository.
+
+### Additional Information
+
+This project has been fully functioning with our account details and user account creation processes. However, due to safety reasons, we have restricted this project from public use. This project was built for a hackathon, and in the future, we will look into making it commercial.
 
 ```
 This readme provides a comprehensive overview of Fin Flow, a financial SaaS platform, emphasizing its technical architecture, features, and integrations. It offers a clear understanding of the project's structure, technology stack, and functionalities, enabling developers and users to grasp its capabilities effectively.
