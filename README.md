@@ -63,6 +63,61 @@ Fin Flow is a financial SaaS platform developed with Next.js, offering users sea
 
 20. [Fin Flow - A Fintech Bank Application](#fin-flow---a-fintech-bank-application)
 21. [Project Description](#project-description)
+    - [The Problem We Are Solving](#the-problem-we-are-solving)
+    - [What Our Project Is](#what-our-project-is)
+    - [How It Works](#how-it-works)
+    - [Project Timeline](#project-timeline)
+      - [Initial Stage](#initial-stage)
+      - [Current Stage](#current-stage)
+      - [Future Stage](#future-stage)
+    - [Progress and Experience](#progress-and-experience)
+      - [Process](#process)
+      - [Learnings](#learnings)
+      - [Improvement](#improvement)
+22. [Hackathon Participation](#hackathon-participation)
+    - [Event Details](#event-details)
+    - [Hackathon Rules](#hackathon-rules)
+23. [Introduction](#introduction)
+24. [Links](#links)
+25. [Team Members](#team-members)
+26. [Tech Stack](#tech-stack)
+27. [Features](#features)
+28. [Quick Start](#quick-start)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+29. [User Account Creation with Appwrite](#user-account-creation-with-appwrite)
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+
+11. [Dwolla Integration for Payment Processing](#dwolla-integration-for-payment-processing)
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+
+12. [Plaid Link Integration for Bank Account Connection](#plaid-link-integration-for-bank-account-connection)
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+
+13. [Fund Transfer Process](#fund-transfer-process)
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+
+14. [Screenshots](#screenshots)
+15. [Contributing](#contributing)
+
+- [Guidelines for Contributing](#guidelines-for-contributing)
+- [Reviewing and Merging Pull Requests](#reviewing-and-merging-pull-requests)
+
+16. [Conclusion](#conclusion)
+17. [License](#license)
+18. [Safety Notice](#safety-notice)
+19. [Additional Information](#additional-information)
+
+20. [Fin Flow - A Fintech Bank Application](#fin-flow---a-fintech-bank-application)
+21. [Project Description](#project-description)
 
 - [The Problem We Are Solving](#the-problem-we-are-solving)
 - [What Our Project Is](#what-our-project-is)
