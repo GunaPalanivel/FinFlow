@@ -1,5 +1,7 @@
 # Fin Flow - A Fintech Bank Application
 
+<!--  -->
+
 ![Project Logo](/screenshots/Dashboard.jpg)
 
 Fin Flow is a financial SaaS platform developed with Next.js, offering users seamless connectivity to multiple bank accounts, real-time transaction monitoring, fund transfers, and comprehensive financial management capabilities.
